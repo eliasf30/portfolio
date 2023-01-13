@@ -1,0 +1,39 @@
+.hero_div{
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    background-image: url("./images/background.jpg");
+}
+
+.h2_div{
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    background-color: rgba(10, 0, 53, 0.2);
+    margin: auto;
+    margin-top: 8%;
+    
+}
+
+.h2_div h2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    color: aliceblue;
+    font-size: 2.4em;
+    font-weight: 400;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+
+}
+
+.name_h2{
+    
+    padding: 3%;
+    
+    border-bottom: 1px solid white;
+}
