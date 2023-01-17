@@ -1,0 +1,24 @@
+.tech_div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(187, 191, 194);
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.tech_div h3{
+   font-size: 1.7em;
+   font-weight: 400;
+   text-decoration: underline;
+   margin: 5%;
+   margin-top: 3%;
+}
+
+.card_container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+}
+

@@ -6,7 +6,7 @@ export default function Hero() {
     const { lenguage } = useSelector(state => state.lenguage);
     
     return(
-        <div  className="hero_div">
+        <div  className="hero_div" id="Hero">
 
 
   
@@ -15,11 +15,11 @@ export default function Hero() {
 
             {lenguage == "español" ?(  
                 <>
-                <h2 className="name_h2">Bienvenido! , soy Elias Figueroa</h2>
+                <h2 className="name_h2">Bienvenido! soy Elias Figueroa.</h2>
                 <h2>Desarrollador Front-End</h2></>) :
                 (
                 <>
-                <h2 className="name_h2">Welcome! , i´m Elias Figueroa</h2>
+                <h2 className="name_h2">Welcome! I´m Elias Figueroa.</h2>
                 <h2>Front-End Developer</h2></>
                 )
             }

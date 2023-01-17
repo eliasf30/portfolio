@@ -1,0 +1,18 @@
+.tech_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    user-select: none;
+    height: 25%;
+    margin: 3%;
+    
+}
+
+
+.tech_card img{
+   height: 100%;
+   object-fit: cover;
+
+}
