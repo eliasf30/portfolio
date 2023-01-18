@@ -31,10 +31,11 @@ export default function Navbar() {
                     <Link smooth={true} duration={550} offset={-50} to="About">
                         <button onClick={() => UseSection("Sobre mi")} className="navbar_Button" disabled={Section == "Sobre mi"}>Sobre mi</button>
                     </Link>
-
-                    <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Habilidades</button>
                     <Link smooth={true} duration={550} offset={-70} to="Technologies">
                     <button onClick={() => UseSection("Tecnologias")} className="navbar_Button" disabled={Section == "Tecnologias"}>Tecnologias</button>
+                    </Link>
+                    <Link smooth={true} duration={550} offset={-50} to="Skills">
+                    <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Habilidades</button>
                     </Link>
                     <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Proyectos</button>
                 </ul>
@@ -44,10 +45,6 @@ export default function Navbar() {
 
                 (
 
-
-
-
-
                     <ul className="navbar_ul">
                         <Link smooth={true} duration={550} to="Hero">
                             <button onClick={() => UseSection("Inicio")} className="navbar_Button" disabled={Section == "Inicio"}>Home</button>
@@ -55,9 +52,11 @@ export default function Navbar() {
                         <Link smooth={true} duration={550} offset={-50} to="About">
                             <button onClick={() => UseSection("Sobre mi")} className="navbar_Button" disabled={Section == "Sobre mi"}>About Me</button>
                         </Link>
-                        <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Skills</button>
                         <Link  smooth={true} duration={550} offset={-70} to="Technologies">
                             <button onClick={() => UseSection("Tecnologias")} className="navbar_Button" disabled={Section == "Tecnologias"}>Technologies</button>
+                        </Link>
+                        <Link smooth={true} duration={550} offset={-50} to="Skills">
+                        <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Skills</button>
                         </Link>
                         <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Projects</button>
                     </ul>

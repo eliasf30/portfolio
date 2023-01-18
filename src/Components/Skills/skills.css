@@ -1,26 +1,29 @@
-.tech_div{
+.skills_div{
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: rgb(187, 191, 194);
+    
     align-items: center;
     width: 100%;
     height: 100vh;
 }
-.tech_div h3{
-   font-size: 1.7em;
+
+.skills_div h3{
+    color: rgb(187, 191, 194);
+    font-size: 1.7em;
    font-weight: 400;
    text-decoration: underline;
-   margin: 5%;
+   margin: 3%;
    margin-top: 3%;
 }
-
-.card_container{
+.skill_container{
     display: flex;
-    margin: auto;
-    width: 80%;
-    height: 80%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 80%;
+    width: 80%;
+
 }
+
 
