@@ -3,6 +3,7 @@ import { skills } from "./skillCard/skills"
 import SkillCard from "./skillCard/skillcard"
 import { useSelector } from "react-redux"
 
+
 export default function Skills(){
 
     const {lenguage} = useSelector(state => state.lenguage)
