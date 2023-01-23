@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 
 export default function Hero() {
-    const { lenguage } = useSelector(state => state.lenguage);
+    const { language } = useSelector(state => state.language);
     
     return(
         <div  className="hero_div" id="Hero">
@@ -13,7 +13,7 @@ export default function Hero() {
 
             <div className="h2_div">
 
-            {lenguage == "español" ?(  
+            {language == "español" ?(  
                 <>
                 <h2 className="name_h2">Bienvenido! soy Elias Figueroa.</h2>
                 <h2>Desarrollador Front-End</h2></>) :

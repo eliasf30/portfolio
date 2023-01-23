@@ -4,13 +4,13 @@ import { useSelector } from "react-redux"
 
 export default function SkillCard({image, title, description, enDescription, enTitle}) {
 
-    const {lenguage} = useSelector(state => state.lenguage)
+    const {language} = useSelector(state => state.language)
 
     return(
     <div className="card">
         <img src={image} />
 
-        {(lenguage === "español")? 
+        {(language === "español")? 
         <>
         <h4>{title} </h4>
         <p>{description}</p> </>: 

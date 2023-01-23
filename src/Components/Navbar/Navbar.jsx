@@ -4,7 +4,7 @@ import es from "./images/es.png"
 import en from "./images/en.png"
 
 import { useDispatch, useSelector } from "react-redux"
-import { toggleLenguage } from "../../redux/actions"
+import { toggleLanguage } from "../../redux/actions"
 import { useState } from "react"
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -13,7 +13,7 @@ export default function Navbar() {
 
     const dispatch = useDispatch();
 
-    const { lenguage } = useSelector(state => state.lenguage);
+    const { language } = useSelector(state => state.language);
     
 
     const [Section, UseSection] = useState("")
@@ -22,7 +22,7 @@ export default function Navbar() {
 
         <div className="Navbar_div" >
 
-            {lenguage == "español" ? (
+            {language == "español" ? (
 
                 <ul className="navbar_ul">
                     <Link smooth={true} duration={550} to="Hero">
@@ -37,7 +37,9 @@ export default function Navbar() {
                     <Link smooth={true} duration={550} offset={-50} to="Skills">
                     <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Habilidades</button>
                     </Link>
+                    <Link smooth={true} duration={550} offset={-50} to="projects"> 
                     <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Proyectos</button>
+                    </Link>               
                 </ul>
 
             )
@@ -57,8 +59,10 @@ export default function Navbar() {
                         </Link>
                         <Link smooth={true} duration={550} offset={-50} to="Skills">
                         <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Skills</button>
-                        </Link>
+                        </Link> 
+                        <Link smooth={true} duration={550} offset={-50} to="projects"> 
                         <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Projects</button>
+                        </Link>
                     </ul>
                 )
             }
@@ -68,10 +72,10 @@ export default function Navbar() {
                 <li className="navbar_li"><a href="https://www.linkedin.com/in/elias-figueroa-ab8312187/" target="_blank"> < AiFillLinkedin className="li_i" /></a></li>
             </ul>
             <ul className="navbar_lenguages">
-                <button className="lenguage_button" onClick={() => dispatch(toggleLenguage("español"))}>
+                <button className="lenguage_button" onClick={() => dispatch(toggleLanguage("español"))}>
                     <li className="navbar_li"><img src={es} alt="es" /></li>
                 </button>
-                <button className="lenguage_button" onClick={() => dispatch(toggleLenguage("english"))}>
+                <button className="lenguage_button" onClick={() => dispatch(toggleLanguage("english"))}>
                     <li className="navbar_li"><img src={en} alt="en" /> </li>
                 </button>
             </ul>

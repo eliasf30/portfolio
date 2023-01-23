@@ -4,7 +4,7 @@ import { useSelector } from "react-redux"
 
 export default function About() {
 
-    const { lenguage } = useSelector(state => state.lenguage);
+    const { lenguage } = useSelector(state => state.language);
    
 
     return (

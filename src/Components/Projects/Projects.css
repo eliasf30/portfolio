@@ -1,0 +1,33 @@
+
+
+.projects_div{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+   
+}
+
+.projects_container{
+    display: flex;
+    justify-content: center;
+    
+    height: 95vh;
+    width: 80vw;
+    margin: auto;
+    border-radius: 3%;
+    flex-wrap: wrap;
+
+}
+.projects_h3{
+    color: rgb(187, 191, 194);
+    font-size: 1.7em;
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 5%;
+   
+}
+
+

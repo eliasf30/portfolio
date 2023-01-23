@@ -1,6 +1,6 @@
-export const TOGGLE_LENGUAGE = "TOGGLE_LENGUAGE"
+export const TOGGLE_LANGUAGE = "TOGGLE_LENGUAGE"
 
-export const toggleLenguage = lenguage => ({
-    type: TOGGLE_LENGUAGE,
-    payload: lenguage
+export const toggleLanguage = language => ({
+    type: TOGGLE_LANGUAGE,
+    payload: language
   });

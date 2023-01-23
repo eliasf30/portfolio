@@ -1,17 +1,17 @@
-import {toggleLenguage, TOGGLE_LENGUAGE } from "./actions"
+import {togglelanguage, TOGGLE_LANGUAGE } from "./actions"
 
 const INITIAL_STATE= {
-    lenguage: "español",
+    language: "español",
   };
 
-  export const lenguageReducer = (state = INITIAL_STATE, action) => {
+  export const languageReducer = (state = INITIAL_STATE, action) => {
     const { type, payload } = action;
     switch (type) {
-      case TOGGLE_LENGUAGE:
+      case TOGGLE_LANGUAGE:
         
         return {
           ...state,
-          lenguage: payload,
+          language: payload,
         };    
         default:
             return state;

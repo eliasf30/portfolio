@@ -6,11 +6,11 @@ import { useSelector } from "react-redux"
 
 export default function Skills(){
 
-    const {lenguage} = useSelector(state => state.lenguage)
+    const {language} = useSelector(state => state.language)
 
     return(
         <div className="skills_div" id="Skills">
-            {(lenguage ==="español")? <h3>Habilidades</h3> : <h3>Skills</h3>    }
+            {(language ==="español")? <h3>Habilidades</h3> : <h3>Skills</h3>    }
             
             <div className="skill_container">
 

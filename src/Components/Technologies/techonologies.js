@@ -8,38 +8,39 @@ import Github from "./images/Github.png"
 
 export const technologies = [
     {
-        id:1,
+        ID:1,
         title:"HTML",
         image: HTML,
+        
 
     },
     {
-        id:2,
+        ID:2,
         title:"CSS",
         image: CSS,
     },
     {
-        id:3,
+        ID:3,
         title:"Javascript",
         image: Javascrypt,
     },
     {
-        id:4,
+        ID:4,
         title:"React",
         image: React,
     },
     {
-        id:5,
+        ID:5,
         title:"Redux",
         image: Redux,
     },
     {
-        id:5,
+        ID:6,
         title:"Git",
         image: Git,
     },
     {
-        id:5,
+        ID:7,
         title:"Github",
         image: Github,
     },

@@ -1,0 +1,76 @@
+.project_card{
+    display: flex;
+    border-radius: 3%;
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+    border: 2px solid whitesmoke;
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+.project_a{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    
+    
+}
+
+.project_img{
+    margin: 0;
+    border-radius: 2%;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+   
+}
+
+.title_div{
+    display: flex;
+    flex-direction: row;
+   height: 25%;
+    width: 100%;
+    
+    
+}
+
+.card_title{
+    color: aliceblue;
+    margin: 4.5%;
+    
+
+}
+
+.github_button{
+    width: 10%;
+    height: 100%;
+   
+    background-color: black;
+    padding: 0;
+    
+    
+}
+
+.github_button :hover{
+    color: gold;
+    transition: .9s;
+    cursor: pointer;
+}
+
+
+.title_a{
+    width: 90%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.Github_icon{
+    color: white;
+    width: 80%;
+    height: 80%;
+}
+ 

@@ -7,15 +7,15 @@ import { useSelector } from "react-redux"
 export default function Technologies() {
 
 
-    const { lenguage } = useSelector(state => state.lenguage);
+    const { language } = useSelector(state => state.language);
 
     return (
         <div className="tech_div" id="Technologies">
-            {(lenguage ==="español")? <h3>Tecnologias</h3> : <h3>Technologies</h3> }
+            {(language ==="español")? <h3>Tecnologias</h3> : <h3>Technologies</h3> }
             
             <div className="card_container">
 
-            {technologies.map(tech => <TechCard id={tech.id} {...tech} />)}
+            {technologies.map(tech => <TechCard ID ={tech.ID} {...tech} />)}
 
                 
                
