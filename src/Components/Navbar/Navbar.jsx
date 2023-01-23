@@ -37,7 +37,7 @@ export default function Navbar() {
                     <Link smooth={true} duration={550} offset={-50} to="Skills">
                     <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Habilidades</button>
                     </Link>
-                    <Link smooth={true} duration={550} offset={-50} to="projects"> 
+                    <Link smooth={true} duration={550}  to="projects"> 
                     <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Proyectos</button>
                     </Link>               
                 </ul>
@@ -60,7 +60,7 @@ export default function Navbar() {
                         <Link smooth={true} duration={550} offset={-50} to="Skills">
                         <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Skills</button>
                         </Link> 
-                        <Link smooth={true} duration={550} offset={-50} to="projects"> 
+                        <Link smooth={true} duration={550}  to="projects"> 
                         <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Projects</button>
                         </Link>
                     </ul>
