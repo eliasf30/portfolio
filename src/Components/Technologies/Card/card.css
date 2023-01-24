@@ -16,3 +16,16 @@
    object-fit: cover;
 
 }
+@media (max-width: 900px){
+    .tech_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        user-select: none;
+        height: 15%;
+        margin: 5%;
+        
+    }
+}

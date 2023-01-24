@@ -32,3 +32,23 @@
     width: 38%;
     
 }
+
+@media (max-width: 900px){
+    .about_div{
+        flex-direction: column;
+    }
+    .text_div {
+       
+        width: 90%;
+        
+    }
+    .about_h3{
+        position: absolute;
+        top:100%;
+    }
+    .imagenCV{
+    
+        height: 35%;
+        
+    }
+}

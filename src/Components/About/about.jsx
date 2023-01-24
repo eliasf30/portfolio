@@ -21,7 +21,7 @@ export default function About() {
             </div> :
 
                 <div id="text_div" className="text_div" >
-                    <h3>About me</h3>
+                    <h3 className="about_h3">About me</h3>
                     <p> My name is Elias Figueroa, I´m 23 years old and I live in Cordoba, Argentina. I´m a Web Developer specialized in Front-End.
                         I have done work as a Freelance developer and i´m in the first year of information systems engineering at National Technological University (UTN).
                         In my free times i like to learn new thinks about technology and working out in the gym or calisthenics.</p>

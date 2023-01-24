@@ -70,7 +70,7 @@
 .navbar_li img{
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    
 
     
 }
@@ -81,4 +81,35 @@
     height: 100%;
     width: 100%;
     background-color: black;
+}
+
+
+@media (max-width: 900px){
+    .Navbar_div{
+        position:fixed;
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+    }
+
+    .navbar_pages{
+        display: none;
+         
+    }
+    .navbar_lenguages{
+        display: none;
+        
+    }
+    .navbar_ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
 }

@@ -19,3 +19,21 @@
     object-fit: cover;
     height: 50%;
 }
+
+@media (max-width: 900px){
+    .card{
+       
+        width: 80%;
+        user-select: none;
+        height: 14%;
+        margin: 5%;
+        
+        
+    }
+    .card img{
+        object-fit: cover;
+        height: 20%;
+        margin-top: 5%;
+        
+    }
+}

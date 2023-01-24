@@ -8,7 +8,7 @@ export default function SkillCard({image, title, description, enDescription, enT
 
     return(
     <div className="card">
-        <img src={image} />
+        <img alt={title} src={image} />
 
         {(language === "español")? 
         <>
