@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Link smooth={true} duration={550} to="Hero">
                         <button onClick={() => UseSection("Inicio")} className="navbar_Button" disabled={Section == "Inicio"}>Inicio</button>
                     </Link>
-                    <Link smooth={true} duration={550} offset={-50} to="About">
+                    <Link smooth={true} duration={550} offset={-60} to="About">
                         <button onClick={() => UseSection("Sobre mi")} className="navbar_Button" disabled={Section == "Sobre mi"}>Sobre mi</button>
                     </Link>
                     <Link smooth={true} duration={550} offset={-70} to="Technologies">
@@ -37,9 +37,12 @@ export default function Navbar() {
                     <Link smooth={true} duration={550} offset={-50} to="Skills">
                     <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Habilidades</button>
                     </Link>
-                    <Link smooth={true} duration={550}  to="projects"> 
+                    <Link smooth={true} duration={550} offset={-50}  to="projects"> 
                     <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Proyectos</button>
-                    </Link>               
+                    </Link>   
+                    <Link smooth={true} duration={550}  to="contactos"> 
+                        <button onClick={() => UseSection("Contactos")} className="navbar_Button" disabled={Section == "Contactos"}>Contactos</button>
+                    </Link>            
                 </ul>
 
             )
@@ -51,7 +54,7 @@ export default function Navbar() {
                         <Link smooth={true} duration={550} to="Hero">
                             <button onClick={() => UseSection("Inicio")} className="navbar_Button" disabled={Section == "Inicio"}>Home</button>
                         </Link >
-                        <Link smooth={true} duration={550} offset={-50} to="About">
+                        <Link smooth={true} duration={550} offset={-60} to="About">
                             <button onClick={() => UseSection("Sobre mi")} className="navbar_Button" disabled={Section == "Sobre mi"}>About Me</button>
                         </Link>
                         <Link  smooth={true} duration={550} offset={-70} to="Technologies">
@@ -60,8 +63,11 @@ export default function Navbar() {
                         <Link smooth={true} duration={550} offset={-50} to="Skills">
                         <button onClick={() => UseSection("Habilidades")} className="navbar_Button" disabled={Section == "Habilidades"}>Skills</button>
                         </Link> 
-                        <Link smooth={true} duration={550}  to="projects"> 
+                        <Link smooth={true} duration={550} offset={-50}  to="projects"> 
                         <button onClick={() => UseSection("Proyectos")} className="navbar_Button" disabled={Section == "Proyectos"}>Projects</button>
+                        </Link>
+                        <Link smooth={true} duration={550}  to="contactos"> 
+                        <button onClick={() => UseSection("Contactos")} className="navbar_Button" disabled={Section == "Contactos"}>Contacts</button>
                         </Link>
                     </ul>
                 )
@@ -79,7 +85,21 @@ export default function Navbar() {
                     <li className="navbar_li"><img src={en} alt="en" /> </li>
                 </button>
             </ul>
+            <div className="responsive_navbar_lenguages">
+                {
+                    (language ==="español")? 
 
+                    <button className="lenguage_button" onClick={() => dispatch(toggleLanguage("english"))}>
+                        <li className="navbar_li"><img src={en} alt="en" /> </li>
+                    </button>
+                    
+                    :
+
+                    <button className="lenguage_button" onClick={() => dispatch(toggleLanguage("español"))}>
+                        <li className="navbar_li"><img src={es} alt="es" /></li>
+                    </button>
+                }
+            </div>
         </div>
 
     )

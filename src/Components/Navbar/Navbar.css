@@ -82,13 +82,26 @@
     width: 100%;
     background-color: black;
 }
+.responsive_navbar_lenguages{
+    
+    position: fixed;
+    
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    
+    top: 8vh;
+    right: 0;
+    background-color: green;
+    display: none;
+}
 
 
 @media (max-width: 900px){
     .Navbar_div{
         position:fixed;
         width: 100%;
-        height: 10vh;
+        height: 8vh;
         background-color: black;
         display: flex;
         flex-direction: row; 
@@ -111,5 +124,43 @@
         flex-direction: row;
         justify-content: space-evenly;
         
+    }
+    .responsive_navbar_lenguages{
+        display: flex;
+        height: 5vh;
+        
+        
+        
+    }
+    .navbar_Button{
+        border: none;
+        
+    }
+    .lenguage_button{
+        border: none;
+        
+       
+    }
+    .navbar_ul {
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-wrap: wrap;
+        
+    }
+    .navbar_li img{
+        margin: 0;
+        
+        
+    
+        
+    }
+    .navbar_li{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
