@@ -1,7 +1,8 @@
 import shiitake from "./images/shiitake.png"
 import Buhonero from "./images/Buhonero.png"
 import PokeApi from "./images/PokeApi.PNG"
-import ToDoList from "./images/ToDoList.PNG"
+
+import Service from "./images/Service.PNG"
 
 export const Proyectos = [
     {
@@ -24,16 +25,17 @@ export const Proyectos = [
         ID: 3,
         Title: "PokeApi",
         Image: PokeApi,
-        Link: "https://pokeapi-rho.vercel.app/",
-        GitHubLink: "https://github.com/eliasf30/pokeapi",
+        Link: "https://pagina-service.vercel.app/",
+        GitHubLink: "https://github.com/eliasf30/pagina-service",
 
     },
     {
         ID: 4,
-        Title: "To Do List",
-        Image: ToDoList,
+        Title: "Alto Alberdi Service",
+        Image: Service,
         Link: "https://tp-3-react.vercel.app/",
         GitHubLink: "https://github.com/eliasf30/tp-3-react",
 
     },
+    
 ]
