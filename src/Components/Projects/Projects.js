@@ -25,16 +25,16 @@ export const Proyectos = [
         ID: 3,
         Title: "PokeApi",
         Image: PokeApi,
-        Link: "https://pagina-service.vercel.app/",
-        GitHubLink: "https://github.com/eliasf30/pagina-service",
+        Link: "https://pokeapi-rho.vercel.app/",
+        GitHubLink: "https://github.com/eliasf30/pokeapi",
 
     },
     {
         ID: 4,
         Title: "Alto Alberdi Service",
         Image: Service,
-        Link: "https://tp-3-react.vercel.app/",
-        GitHubLink: "https://github.com/eliasf30/tp-3-react",
+        Link: "https://pagina-service.vercel.app/",
+        GitHubLink: "https://github.com/eliasf30/pagina-service",
 
     },
     
