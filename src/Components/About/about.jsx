@@ -15,16 +15,16 @@ export default function About() {
 
              <div id="text_div" className="text_div" >
                 <h3>Sobre mi</h3>
-                <p> Mi nombre es Elias Figueroa, tengo 23 años, vivo en Córdoba, Argentina. Soy programador web, orientado en el Front-End momentáneamente.
-                    He realizado trabajos como desarrollador Freelance y actualmente me encuentro en primer año de Ingeniería en Sistemas de Informacion
-                    en la UTN. En mis tiempos libres me gusta investigar cosas nuevas respecto a tecnología y hacer ejercicio en el gimnasio o calistenia.</p>
+                <p> Mi nombre es Elías Figueroa, tengo 25 años y vivo en Córdoba, Argentina. Soy programador web especializado en Front-End. He trabajado como desarrollador freelance
+                     y actualmente curso el tercer año de la carrera de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN). En mi tiempo libre, 
+                     disfruto investigando sobre nuevas tecnologías y manteniéndome activo con ejercicios en el gimnasio o practicando calistenia.</p>
             </div> :
 
                 <div id="text_div" className="text_div" >
                     <h3 >About me</h3>
-                    <p> My name is Elias Figueroa, I´m 23 years old and I live in Cordoba, Argentina. I´m a Web Developer specialized in Front-End.
-                        I have done work as a Freelance developer and i´m in the first year of information systems engineering at National Technological University (UTN).
-                        In my free times i like to learn new thinks about technology and working out in the gym or calisthenics.</p>
+                    <p> My name is Elias Figueroa, a 25-year-old Web Developer from Córdoba, Argentina, specializing in Front-End development. I have experience working as a freelance developer
+                         and am currently in my third year of Information Systems Engineering at the National Technological University (UTN).
+                          In my free time, I enjoy exploring new technologies and staying active through gym workouts and calisthenics</p>
                 </div>
             
             

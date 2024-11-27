@@ -31,12 +31,6 @@
     
 }
 
-.li_i{
-    width: 100%;
-    height: 80%;
-   
-    
-}
 
 
 .navbar_lenguages{
@@ -53,6 +47,7 @@
     user-select: none;
     list-style: none;
     color: white;
+    border: none;
 }
 
 .navbar_Button:hover{
@@ -81,6 +76,7 @@
     height: 100%;
     width: 100%;
     background-color: black;
+    cursor: pointer;
 }
 .responsive_navbar_lenguages{
     
@@ -96,6 +92,10 @@
     display: none;
 }
 
+a {
+    display: flex;
+    height: 100%;
+}
 
 @media (max-width: 900px){
     .Navbar_div{

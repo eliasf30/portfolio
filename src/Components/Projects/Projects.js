@@ -37,5 +37,5 @@ export const Proyectos = [
         GitHubLink: "https://github.com/eliasf30/pagina-service",
 
     },
-    
+   
 ]

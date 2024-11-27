@@ -5,6 +5,7 @@ import React from "./images/React.png"
 import Redux from "./images/Redux.png"
 import Git from "./images/Git.png"
 import Github from "./images/Github.png"
+import Angular from "./images/Angular.png"
 
 export const technologies = [
     {
@@ -43,5 +44,10 @@ export const technologies = [
         ID:7,
         title:"Github",
         image: Github,
+    }, 
+    {
+        ID:8,
+        title:"Angular",
+        image: Angular,
     },
 ]
